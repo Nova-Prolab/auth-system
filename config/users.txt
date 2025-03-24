@@ -3,9 +3,6 @@ return {
     ["@novahavoc"] = "99999",
     ["@betatest"] = "1234",
     ["@Macroeditor2025"] = "600",
-    ["@user3"] = "pass3",
-    ["@user4"] = "pass4",
-    ["@user5"] = "pass5",
-    ["@user6"] = "pass6" 
+    ["@free2025"] = "free2025" 
   }
 }
