@@ -1,0 +1,24 @@
+[build]
+  publish = "."
+  functions = "functions"
+
+[[redirects]]
+  from = "/config/users.txt"
+  to = "/.netlify/functions/auth?file=users.txt"
+  status = 200
+
+[[redirects]]
+  from = "/config/config.bot.txt"
+  to = "/.netlify/functions/auth?file=config.bot.txt"
+  status = 200
+
+[[redirects]]
+  from = "/config/ban.list.txt"
+  to = "/.netlify/functions/auth?file=ban.list.txt"
+  status = 200
+
+[[headers]]
+  for = "/config/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "no-cache, no-store, must-revalidate"
