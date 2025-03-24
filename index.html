@@ -5,24 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Autenticación GG</title>
     <link rel="stylesheet" href="/assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>🔐 Sistema de Autenticación para GameGuardian</h1>
-        <div class="status-box">
-            <p>Estado del servidor: <span class="status-active">Activo</span></p>
-            <p>Versión: 1.0.0</p>
+        <div class="header">
+            <div class="lock-icon">🔒</div>
+            <h1>Sistema de Autenticación <span class="highlight">GameGuardian</span></h1>
         </div>
-        <div class="endpoints-box">
-            <h3>📡 Endpoints disponibles:</h3>
-            <ul>
-                <li><code>/config/users.txt</code> - Usuarios autorizados</li>
-                <li><code>/config/config.bot.txt</code> - Configuración del bot</li>
-                <li><code>/config/ban.list.txt</code> - IPs bloqueadas</li>
-            </ul>
+        
+        <div class="status-card">
+            <div class="status-header">
+                <h2>Estado del Sistema</h2>
+                <span class="status-badge active">Operativo</span>
+            </div>
+            <div class="status-details">
+                <div class="detail-item">
+                    <span class="detail-label">Versión:</span>
+                    <span class="detail-value">1.1.0</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Última actualización:</span>
+                    <span class="detail-value">Justo ahora</span>
+                </div>
+            </div>
         </div>
-        <div class="warning">
-            <p>⚠️ Estos archivos son sensibles.</p>
+        
+        <div class="security-notice">
+            <div class="notice-icon">⚠️</div>
+            <div class="notice-content">
+                <h3>Seguridad del Sistema</h3>
+                <p>Este panel proporciona acceso a funciones sensibles.</p>
+            </div>
         </div>
     </div>
 </body>
