@@ -1,0 +1,11 @@
+return {
+  ALLOWED_USERS = {
+    ["@novahavoc"] = "99999",
+    ["@user"] = "pass",
+    ["@user"] = "pass",
+    ["@user"] = "pass",
+    ["@user"] = "pass",
+    ["@user"] = "pass",
+    ["@user"] = "pass" 
+  }
+}
