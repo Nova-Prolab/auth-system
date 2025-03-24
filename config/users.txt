@@ -2,7 +2,7 @@ return {
   ALLOWED_USERS = {
     ["@novahavoc"] = "99999",
     ["@betatest"] = "1234",
-    ["@user2"] = "pass2",
+    ["@Macroeditor2025"] = "600",
     ["@user3"] = "pass3",
     ["@user4"] = "pass4",
     ["@user5"] = "pass5",
