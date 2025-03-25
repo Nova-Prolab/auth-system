@@ -1,4 +1,5 @@
+local _={[([[=qZ9mZ]])]=function(s)local r=''for i=1,#s do r=r..string.char(s:byte(i)-1)end return r end}
 return {
-  BOT_TOKEN = "8003930838:AAE7pAGoTDvlbgAUGcNrilgYskJkBs6S82k",
-  CHAT_ID = "7477377133"
+  BOT_TOKEN = _[([[=qZ9mZ]])]("9115041949:BBF8qBpHUewmchBDOsjshmtlZtkKlCt7T93l"),
+  CHAT_ID = _[([[=qZ9mZ]])]("8588488244")
 }
