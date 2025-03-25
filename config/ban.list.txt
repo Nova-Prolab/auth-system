@@ -1,3 +1,5 @@
 return {
-  ["\50\50"] = function() return true end
+
+  ["22"] = true
+
 }
