@@ -17,8 +17,19 @@
   to = "/.netlify/functions/auth?file=ban.list.txt"
   status = 200
 
+[[redirects]]
+  from = "/games/*"
+  to = "/.netlify/functions/game?path=:splat"
+  status = 200
+
 [[headers]]
   for = "/config/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/games/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Cache-Control = "no-cache, no-store, must-revalidate"
