@@ -35,4 +35,4 @@ exports.handler = async (event, context) => {
             body: `Error al leer el archivo: ${err.message}`
         };
     }
-}; 
+};
