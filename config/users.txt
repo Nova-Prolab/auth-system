@@ -2,6 +2,6 @@ return {
   ALLOWED_USERS = {
     ["@novahavoc"] = "99999",
     ["@Macroeditor2025"] = "600",
-    ["@free2025"] = "free2025" 
+    ["@macroeditor"] = "macroeditor2025" 
   }
 }
