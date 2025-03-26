@@ -1,6 +1,7 @@
 return {
   ALLOWED_USERS = {
     ["@admins"] = "9Jk4Z2mP7xR8c3L1vW",
+    ["@jean"] = "jean22",
     ["@macroeditor"] = "macroeditor2025" 
   }
 }
