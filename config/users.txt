@@ -3,6 +3,7 @@ return {
     ["@admins"] = "9Jk4Z2mP7xR8c3L1vW",
     ["@jean"] = "jean22",
     ["@Jay"] = "jay.02",
+    ["@Macroeditor"] = "Macroeditor2025",
     ["@macroeditor"] = "macroeditor2025" 
   }
 }
