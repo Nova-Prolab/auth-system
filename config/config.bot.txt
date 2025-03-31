@@ -1,4 +1,0 @@
-return {
-  BOT_TOKEN = "8003930838:AAE7pAGoTDvlbgAUGcNrilgYskJkBs6S82k",
-  CHAT_ID = "7477377133"
-}
