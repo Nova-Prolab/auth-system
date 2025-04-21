@@ -4,6 +4,11 @@ return {
       password = "\53\55\54\52\50\52",
       expires = "2025-05-20",
       allowed_ips = {"any"}
+    },
+    ["\64\70\114\101\101\109\114\121\116"] = {
+      password = "\56\57\57\48",
+      expires = "2025-04-24",
+      allowed_ips = {"any"}
     }
   }
 }
